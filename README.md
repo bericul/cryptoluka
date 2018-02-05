@@ -26,10 +26,16 @@ pool no oficial: http://luka2.bericul.com
 
 Ubuntu 16.04
 
- apt-get update
- apt-get upgrade
- apt-get install  qtbase5-dev libssl-dev cmake git libboost1.58-all-dev build-essential g++
- git clone https://github.com/cryptoluka/cryptoluka
- cd cryptoluka/
- cmake CMakeLists.txt
- make install
+apt-get update
+
+apt-get upgrade
+
+apt-get install  qtbase5-dev libssl-dev cmake git libboost1.58-all-dev build-essential g++
+
+git clone https://github.com/cryptoluka/cryptoluka
+
+cd cryptoluka/
+
+cmake CMakeLists.txt
+
+make install
